@@ -1,0 +1,14 @@
+*{padding: 0 ;margin: 0 ; text-decoration: none ; list-style: none ;}
+div#view_msg ul { box-shadow: 3px 3px 5px #ccc ; position: absolute ; top: 50% ; left: 50% ;transform: translateX(-50%) translateY(-50%) ; background-color: #eee ;}
+div#view_msg ul li:first-child{ height: 50px ; }
+div#view_msg ul li:first-child h3{ margin-top: 20px ; text-align: center ; }
+div#view_msg ul li:last-child form input{ display: block ; }
+form#forms input[type="text"],form#forms input[type="password"]{ transition: all .3s ; width:250px ; height: 35px ; border-radius: 0 ; border: 1px solid #fff ; text-indent: 15px ; box-shadow: 0 1px 0 #ccc ; margin: 5px 30px 0 ; }
+#forms input[type="button"]{ transition: all .3s ; background-color: #d1d1d1 ; float: left ; width: 80px ; height: 40px ; margin: 15px 0 20px 50px;  border: none ; }
+form#forms input[type="password"]:focus{  border-radius: 5px ; border: 1px solid #ccc ;box-shadow: 0px 1px 1px #999 ; }
+form#forms input[type="text"]:focus{  border-radius: 5px ; border: 1px solid #ccc ;box-shadow: 0px 1px 1px #999 ; }
+form#forms input[type="button"]:hover{color: #eee ;border-radius: 6px ; background-color: #3aad8f ;}
+form#forms input:last-child:hover{color: #eee ; border-radius: 5px ; border-top-right-radius: 40% ; border-bottom-right-radius: 40% ; background-color: #0baf74 ;}
+
+#tip{ display: block ; width: 250px ; margin: 10px 30px ; color: red ; font-size: 12px ;}
+#message{ display: block ; opacity: 0 ;position: absolute; width: 200px ; top: 7% ; left: 50% ; margin-left: -130px ;  border-radius: 10px ; background-color: #3aad8f ; box-shadow: 3px 3px 10px #ccc; color:#fff ; font-size: 15px ; padding:10px 30px; text-align: center ;}
